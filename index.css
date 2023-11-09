@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&family=Work+Sans:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&family=Saira:ital,wght@0,100;1,100&family=Work+Sans:wght@200;300&display=swap');
+body{
+    background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2016/04/11/927529/716a2d881da226e789491c2a96123455.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0px -200px;
+}
+h1{
+    font-family:Saira Condensed ;
+    font-size: 70px;
+    text-align: center;
+    background: -webkit-linear-gradient(90deg, #b2dfdb, #000, #000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container{
+    position: absolute;
+    top: 180px;
+    width: 80%;
+    margin-left: 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.01);
+    backdrop-filter: blur(-200px);
+    font-family: Saira Condensed;
+    font-size: 24px;
+}
+.t-cont{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100px;
+    height: 40px;
+    background: transparent;
+    border: 0.2px solid rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    border-radius: 40px;
+    margin-right: 20px;
+    align-items: center;
+    transform: translate(70px, -50%);
+}
+
+img{
+    height:300px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+}
+table{
+    width: 80%;
+    border: 1px solid;
+
+}
+th{
+    padding: 10px 30px;
+    border-bottom: 1px solid;
+}
+td{
+    text-align: center;
+    border-bottom: 1px solid;
+    padding: 10px;
+}
+.btn-cont{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.plus{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    border: none;
+    font-weight: 400;
+    background-color: darkslategray;
+}
+.minus{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    border: none;
+    font-weight: 400;
+    background-color: darkslategray;}
+    .del{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    img:hover{
+        transform: scale(1.1);
+    }
+    p{
+        color: white;
+    }
+    th{
+        color: white;
+    }
+    td{
+        color: white;
+    }
